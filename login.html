@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width = device-width">
+  <meta charset="UTF-8">
+  <title>E‑Flow Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">E‑Flow</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="signup.html">Signup</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="card">
+      <h2>Login</h2>
+
+      <form id="login-form">
+        <label>Email
+          <input type="email" id="login-email" required>
+        </label>
+
+        <label>Password
+          <input type="password" id="login-password" required minlength="6">
+        </label>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p id="session-message" class="session-message hidden"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width = device-width">
+  <meta charset="UTF-8">
+  <title>E‑Flow Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">E‑Flow</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="card">
+      <h2>Create an Account</h2>
+
+      <form id="signup-form">
+        <label>Email
+          <input type="email" id="signup-email" required>
+        </label>
+
+        <label>Password
+          <input type="password" id="signup-password" required minlength="6">
+        </label>
+
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <p class="hint">This is a demo. No real accounts are created.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
